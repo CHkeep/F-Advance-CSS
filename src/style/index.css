@@ -20,7 +20,6 @@ ul {
 }
 
 .navigation-header {
-  border: 1px solid red;
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(29 28 28 / 98%);
@@ -32,15 +31,11 @@ ul {
   margin: auto;
 }
 
-.section,
-.month-section {
-  border: 1px solid red;
-}
-
 .main {
   display: flex;
   justify-content: space-evenly;
   align-content: space-around;
+  margin-bottom: 100px;
 }
 .aside-section {
   width: 16%;
@@ -51,17 +46,12 @@ ul {
 }
 
 .section {
-  border: 1px solid red;
   width: 25%;
 }
 
-.article-section p {
-  background-color: #424141d1;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12%;
+.article-section img {
+  width: 100%;
+  margin-top: 20px;
 }
 
 .article-section aside {
@@ -105,9 +95,18 @@ ul {
   font-size: 14px;
   color: #00a1ffd4;
 }
-
+.footer p {
+  margin: 0px;
+  padding: 0px;
+}
 .footer {
-  border: 1px solid red;
-  clear: both;
-  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: #cbcdd0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
