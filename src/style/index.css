@@ -18,3 +18,16 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.navigation-header {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(29 28 28 / 98%);
+  color: white;
+  padding: 12px;
+}
+
+.navigation-header li {
+  margin: auto;
+}
