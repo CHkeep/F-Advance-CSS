@@ -31,3 +31,23 @@ ul {
 .navigation-header li {
   margin: auto;
 }
+
+.section,
+.month-section {
+  border: 1px solid red;
+}
+
+.month-section a {
+  display: grid;
+}
+
+.section {
+  border: 1px solid red;
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+
+.footer {
+  clear: both;
+}
