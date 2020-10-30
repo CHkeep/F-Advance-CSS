@@ -22,7 +22,7 @@ ul {
 .navigation-header {
   border: 1px solid red;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: rgb(29 28 28 / 98%);
   color: white;
   padding: 12px;
@@ -37,17 +37,77 @@ ul {
   border: 1px solid red;
 }
 
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.aside-section {
+  width: 16%;
+}
+
 .month-section a {
   display: grid;
 }
 
 .section {
   border: 1px solid red;
-  width: 300px;
-  float: left;
-  margin: 10px;
+  width: 25%;
+}
+
+.article-section p {
+  background-color: #424141d1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12%;
+}
+
+.article-section aside {
+  margin-bottom: 12px;
+}
+
+.article-section article {
+  margin: 12px;
+}
+
+.article-section a {
+  color: #00a1ffd4;
+  text-decoration: none;
+}
+
+.sign-section {
+  display: flex;
+  align-items: center;
+}
+.sign-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-form > input {
+  padding: 6px;
+  width: 80%;
+  border-radius: 4px;
+  border-color: #0000000d;
+  opacity: 60%;
+}
+
+.sign-form input:last-child {
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+}
+
+.fas {
+  font-size: 14px;
+  color: #00a1ffd4;
 }
 
 .footer {
+  border: 1px solid red;
   clear: both;
+  text-align: center;
 }

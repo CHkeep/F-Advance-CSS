@@ -25,8 +25,8 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section class='section'>
+  <main class="main">
+    <section class='aside-section'>
       <article>
         <h1>About</h1>
         <aside>Whereas most other countries are mired in recession and grappling with a new wave of covid-19 cases, China has just about completed the upward leg of a V-shaped rebound.</aside>
@@ -47,7 +47,7 @@
     </section>
 
     <section class='section'>
-      <section class='Article1-section'>
+      <section class='article-section'>
         <p>Thumbnail</p>
         <article>
           <h1>Article 1</h1>
@@ -55,10 +55,12 @@
             All legislative Powers herein granted shall be vested in a Congress of the United States,
             which shall consist of a Senate and House of Representatives.
           </aside>
+          <a href="">View details</a> 
+          <i class='fas'>&#xf101;</i>    
         </article> 
-        <a href="">View details</a>    
+        
       </section>
-      <section class='Article3-section'>
+      <section class='article-section'>
         <p>Thumbnail</p>
         <article>
           <h1>Article 3</h1>
@@ -68,12 +70,13 @@
             a portion of Section 9 was changed by the 16th Amendment; 
             a portion of Section 3 was changed by the 17th Amendment.
           </aside>
-        </article> 
-        <a href="">View details</a> 
+          <a href="">View details</a> 
+          <i class='fas'>&#xf101;</i> 
+        </article>         
       </section>
     </section>
     
-    <section class='section'>      
+    <section class='section article-section'>      
       <p>Thumbnail</p>
       <article>
         <h1>Article 2</h1>
@@ -82,20 +85,25 @@
           and been seven Years a Citizen of the United States, and who shall not,
           when elected, be an Inhabitant of that State in which he shall be chosen.
           Representatives and direct Taxes shall be apportioned among the several States which may be included within this Union, 
-          according to their respective Numbers, which shall be determined by adding to the whole Number of free Persons,
-          including those bound to Service for a Term of Years, and excluding Indians not taxed, 
-          three fifths of all other Persons.
+          according to their respective Numbers.and direct Taxes shall be apportioned among the several States which may be included within this Union, 
+          according to their respective Numbers.       
         </aside>
-      </article> 
-      <a href="">View details</a>    
+        <a href="">View details</a>  
+        <i class='fas'>&#xf101;</i>         
+      </article>        
     </section>
 
     <section class='sign-section'>
-      <input type="text" name="Email Address" />
-
+      <form action="" class='sign-form'>
+        <input type="text" name="email" placeholder="Email Address"/>
+        <input type="password" name="password" placeholder="Password"/>
+        <p><input type="checkbox" />Remember me</p>
+        <input type="submit" value="Sign in" />
+      </form>
     </section>
   </main>
   <footer class="footer">footer</footer>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script src="src/app.js"></script>
 </body>
 </html>
